@@ -1,7 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Launcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 40px 60px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0056b3;
+            margin-bottom: 30px;
+        }
+        .game-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .game-item {
+            margin-bottom: 20px;
+        }
+        .game-item a {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+            min-width: 200px;
+        }
+        .game-item a:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container">
+        <h1>Welcome to the Game Arcade!</h1>
+        <p>Choose a game to play:</p>
+        <ul class="game-list">
+            <li class="game-item">
+                <a href="https://github.com/Shihab-glitch/Shihab-glitch.github.io/blob/main/TTT.cpp" target="_blank" rel="noopener noreferrer">Play Game 1: [TTT]</a>
+            </li>
+            <li class="game-item">
+                <a href="https://github.com/Shihab-glitch/Shihab-glitch.github.io/blob/main/Snake.cpp" target="_blank" rel="noopener noreferrer">Play Game 2: [Snake]</a>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Your Name/Organization. All rights reserved.</p>
+    </footer>
 </body>
 </html>
